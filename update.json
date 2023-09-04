@@ -4,7 +4,7 @@
       "method": "shell.run", 
       "params": {
         "message": "git pull origin master",
-        "path": "roop",
+        "path": "roop-unleashed",
         "error": "pull_error"  
       }
     },
