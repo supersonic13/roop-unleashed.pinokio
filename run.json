@@ -3,7 +3,7 @@
     {
       "method": "python",
       "params": {
-        "script": "roop-unleashed/run.py"  
+        "script": "roop-unleashed/run.py --execution-provider cuda"  
       }
     }
   ]
