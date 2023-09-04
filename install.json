@@ -36,7 +36,7 @@
   }, {
     "method": "shell.enter",
     "params": {
-      "message": "pip uninstall onnxruntime onnxruntime-gpu",
+      "message": "pip uninstall --yes onnxruntime onnxruntime-gpu",
       "on": [{
         "event": null,
         "return": true
@@ -45,7 +45,7 @@
   }, {
     "method": "shell.enter",
     "params": {
-      "message": "pip install onnxruntime-gpu==1.15.1",
+      "message": "pip install --yes onnxruntime-gpu==1.15.1",
       "on": [{
         "event": null,
         "return": true
