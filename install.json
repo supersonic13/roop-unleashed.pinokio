@@ -45,7 +45,7 @@
   }, {
     "method": "shell.enter",
     "params": {
-      "message": "pip install --yes onnxruntime-gpu==1.15.1",
+      "message": "pip install onnxruntime-gpu==1.15.1",
       "on": [{
         "event": null,
         "return": true
