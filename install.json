@@ -2,18 +2,18 @@
   "run": [{
     "method": "shell.run",
     "params": {
-      "message": "git clone https://github.com/s0md3v/roop.git"
+      "message": "git clone https://github.com/C0untFloyd/roop-unleashed"
     }
   }, {
     "method": "shell.run",
     "params": {
       "message": "{{os.platform === 'win32' ? 'python' : 'python3'}} -m venv env",
-      "path": "roop"
+      "path": "roop-unleashed"
     }
   }, {
     "method": "shell.start",
     "params": {
-      "path": "roop"
+      "path": "roop-unleashed"
     }
   }, {
     "method": "shell.enter",
