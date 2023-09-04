@@ -1,5 +1,5 @@
 module.exports = {
-  title: "roop",
+  title: "roop-unleashed",
   description: "One click face-swap GUI",
   icon: "icon.png",
   menu: [{
